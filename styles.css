@@ -272,6 +272,10 @@ label {
   text-align: left;
 }
 
+.location {
+  color: red
+}
+
 .questions {
   width: 70%;
   margin: 0 auto;

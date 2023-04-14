@@ -19,7 +19,7 @@ var x = setInterval(function () {
 
   // Output the result in an element with id="countdown"
   document.getElementById("countdown").innerHTML =
-    days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+    hours + "h " + minutes + "m " + seconds + "s ";
 
   // If the count down is over, write some text
   if (distance < 0) {
